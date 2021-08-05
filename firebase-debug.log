@@ -1,0 +1,47 @@
+[debug] [2021-08-05T20:09:16.811Z] ----------------------------------------------------------------------
+[debug] [2021-08-05T20:09:16.813Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\game_\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-05T20:09:16.814Z] CLI Version:   9.16.0
+[debug] [2021-08-05T20:09:16.814Z] Platform:      win32
+[debug] [2021-08-05T20:09:16.814Z] Node Version:  v14.17.2
+[debug] [2021-08-05T20:09:16.815Z] Time:          Fri Aug 06 2021 03:09:16 GMT+0700 (Indochina Time)
+[debug] [2021-08-05T20:09:16.815Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-05T20:09:16.890Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-05T20:09:16.890Z] > authorizing via signed-in user (thinnakorn_k@elearning.cmu.ac.th)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Prog\Component_Lab\lab06
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using lab06-3e860. 
+[debug] [2021-08-05T20:09:24.079Z] > refreshing access token with scopes: []
+[debug] [2021-08-05T20:09:24.079Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-05T20:09:24.306Z] <<< HTTP RESPONSE 200 {"date":"Thu, 05 Aug 2021 20:09:25 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-05T20:09:24.322Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lab06-3e860 [none]
+[debug] [2021-08-05T20:09:24.701Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lab06-3e860 200
+[debug] [2021-08-05T20:09:24.701Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lab06-3e860 {"projectId":"lab06-3e860","projectNumber":"637087182854","displayName":"335-lab06","name":"projects/lab06-3e860","resources":{"hostingSite":"lab06-3e860"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
