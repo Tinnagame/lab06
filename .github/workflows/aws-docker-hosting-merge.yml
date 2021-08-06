@@ -28,7 +28,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: tinnagame/331-lab06:latest
+        tags: tinnagame/se331-lab06:latest
     - 
       name: prepare the docker-compose run
       run: |
